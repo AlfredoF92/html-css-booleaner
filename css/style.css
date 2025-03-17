@@ -45,10 +45,24 @@ main{
     width: 1200px;
 }
 
+.scritta_over_img{
+    position: absolute;
+}
+
+#interessi{
+    position: relative;
+}
+
 .block_interessi{
 
-    width: auto;
-    height: 300px;
-   
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    height: 250px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
 
+.rigaEvidenziata{
+    background-color: rgb(19, 62, 141) !important;
 }
