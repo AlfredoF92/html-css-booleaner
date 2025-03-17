@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Esercizio #4</title>
+
 </head>
+
+
 <body>
     
-    <header>
-        
-        <img src="img/logo.svg">
+    <header class="banner">
+        <div>
+            <img id="logo" src="img/logo.svg">
+
+        </div>
 
     </header>
-    <main>
+
+
+    <main id="main">
 
         <section id="title">
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
@@ -21,8 +32,15 @@
         </section>
 
         <section id="galleria">
-            <img src="img/tim-1.jpg">
-            <img src="img/tim-2.jpg">
+            <div>
+                <img src="img/tim-1.jpg">
+                <img src="img/tim-2.jpg">
+            </div>
+
+            <div class="citazioneFoto">
+                <p>1° photo John</p>
+                <p>2° photo John</p>
+            </div>
         </section>
 
         <section id="articolo">
@@ -79,17 +97,23 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Eaque vero, fuga voluptatibus quod dignissimos eum quaerat hic architecto incidunt illum nemo officiis dignissimos eum quaerat hic architecto incidunt illum nemo officiis quibusdam repellendus, 
                 odio provident in nulla est harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Eaque vero, fuga voluptatibus <span class="evidenziato"></span>quod dignissimos eum quaerat hic architecto incidunt</span> illum nemo officiis quibusdam repellendus, 
+                Eaque vero, fuga voluptatibus <span class="evidenziato">quod dignissimos eum quaerat hic architecto incidunt</span> illum nemo officiis quibusdam repellendus, 
                 odio provident in nulla est harum.
             </p>
 
         </section>
 
-        <section>
+        <section id="interessi">
            
             <p>Potrebbe interessarti</p>
-            <img src="img/monitor.jpg">
-            <img src="img/graph.jpg">
+            
+            <div class="block_interessi" >
+                <img src="../img/monitor.jpg" alt="">
+            </div>
+            <div class="block_interessi" >
+                <img src="../img/graph.jpg" alt="">
+            </div>
+           
            
         </section>
 
